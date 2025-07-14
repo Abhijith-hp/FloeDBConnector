@@ -1,4 +1,4 @@
-package com.gtl.floedbconnector.repository;
+package com.gtl.floedbconnector.jpa_repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

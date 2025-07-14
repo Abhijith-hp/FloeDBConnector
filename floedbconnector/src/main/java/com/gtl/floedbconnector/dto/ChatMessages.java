@@ -1,7 +1,6 @@
 package com.gtl.floedbconnector.dto;
 
 import java.sql.Timestamp;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -13,6 +12,7 @@ import lombok.Data;
 @Entity
 @Data
 @Table(name = "\"ChatMessages\"")
+
 public class ChatMessages {
 
     @Id
@@ -37,6 +37,6 @@ public class ChatMessages {
     @Column(name = "createdat")
     private Timestamp createdAt;
 
-    // Getters and Setters
+   
 }
 
